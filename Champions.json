@@ -1,0 +1,55 @@
+
+
+[{
+    "Name": "Tristana",
+    "Description":"The Yordle Gunner",
+    "Difficulty" : "easy",
+    "Role" : "Marksmen",
+            "Abilities" : [{
+                    "Passive" : {
+                    "Name" : "Draw a Bead",
+                    "Description" : "The range of Tristana's basic attacks, Explosive Charge and Buster Shot is increased by 0 - 136 (based on level)"
+                },
+            "Q" : {
+                    "Name" : "Rapid Fire",
+                    "Active" : "Tristana gains bonus attack speed for 7 seconds.",
+                    "Active Scale" : [30, 50, 70, 90, 110],
+                    "Damage Type" : "N/A",
+                    "Cooldown" : [20, 19, 18, 17, 16],
+                    "Range" : -1
+            },
+            "W" : {
+                    "Name" : "Rocket Jump",
+                    "Active" : "Tristana dashes to the target location, dealing magic damage to all nearby enemies on impact and slowing them by 60%",
+                    "Active Scale" : [60],
+                    "Damage Type" : "Magic",
+                    "Mana Cost" : [60],
+                    "Cooldown" : [20, 19, 18, 17, 16],
+                    "Range" : 900,
+                    "Notes" : "On enemy champion takedowns or upon detonating Explosive Charge at maximum stacks on an enemy champion, Rocket Jump's cooldown is reset."
+            },
+            "E" : {
+                    "Name" : "Explosive Charge",
+                    "Passive" : "Enemies explode when slain by Tristana's basic attacks, dealing magic damage to all nearby enemies.",
+                    "Passive Scale" : [50, 75, 100, 125, 150],
+                    "Active" : "Tristana dashes to the target location, dealing magic damage to all nearby enemies on impact and slowing them by 60%",
+                    "Active Minumum Damage" : [60, 70, 80, 90, 100],
+                    "Damage Type" : "Magic",
+                    "Mana Cost" : [70, 75, 80, 85, 90],
+                    "Cooldown" : [16, 15.5, 15, 14.5, 14],
+                    "Notes" : "On enemy champion takedowns or upon detonating Explosive Charge at maximum stacks on an enemy champion, Rocket Jump's cooldown is reset."
+            }, 
+            "R" : {
+                    "Name" : "Buster Shot",
+                    "Active" : "Tristana fires a massive cannonball at the target enemy, dealing them magic damage and knocking back the target and all enemies around them.",
+                    "Active Minumum Damage" : [300, 400, 500],
+                    "Damage Type" : "Magic",
+                    "Mana Cost" : [100],
+                    "Cooldown" : [120, 110, 100]
+            }
+            
+        }]
+},
+{
+    "helllo": "bye"
+}]
